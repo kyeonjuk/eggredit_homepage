@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>QuestLearn - Your Next Big Adventure!</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<style>
+        .material-symbols-outlined {
+          font-variation-settings:
+          'FILL' 1,
+          'wght' 400,
+          'GRAD' 0,
+          'opsz' 24
+        }
+    </style>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#7f13ec",
+              "background-light": "#F8F9FA",
+              "background-dark": "#191022",
+              "mint-green": "#A2E4B8",
+              "soft-yellow": "#FDFD96",
+              "lavender": "#C7B9E7",
+              "sky-blue": "#A7D4E8",
+              "soft-gray": "#8D99AE",
+              "text-light": "#141118",
+              "text-dark": "#F8F9FA",
+            },
+            fontFamily: {
+              "display": ["Nunito", "sans-serif"]
+            },
+            borderRadius: {"DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark font-display text-text-light dark:text-text-dark">
+<div class="relative flex h-auto w-full flex-col group/design-root overflow-x-hidden">
+<!-- HeroSection -->
+<div class="relative bg-background-light dark:bg-background-dark overflow-hidden">
+<div class="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/az-subtle.png')] opacity-20"></div>
+<div class="absolute -top-40 -left-40 w-80 h-80 bg-sky-blue/30 dark:bg-sky-blue/20 rounded-full blur-3xl"></div>
+<div class="absolute -bottom-40 -right-40 w-80 h-80 bg-lavender/30 dark:bg-lavender/20 rounded-full blur-3xl"></div>
+<div class="relative @container">
+<div class="flex min-h-[80vh] flex-col gap-8 items-center justify-center p-4 text-center">
+<img class="w-48 h-48 object-contain" data-alt="A cute, friendly mascot character for the learning app, waving hello." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDrAPegSjBJ_wSa0-zrb4vawWx1KeYtE061hhF08ND98JjEXyoBxMZR6ofGjtLxg_kww5goMf9bh5MSbC5UeJjOt-T6wGPXedrnbM-oRnQZ5k4yjRJOKzvtTdJxRgdk8Zpago7UVodzyfR2QgvSg_CSWAg9PUA7jT6vc8DbbRLFPMgO28jDEz7n2Bej97_LVW-shawy4lmhKD4_EWVlG2LrpKkGobn01b6asKj2cwrpFvzejzDkZMjklkYhz0xYLfTKAHaU1kmMkTE"/>
+<div class="flex flex-col gap-2">
+<h1 class="text-4xl font-black leading-tight tracking-tight @[480px]:text-5xl">
+                    Learning is Your Next Big Adventure!
+                </h1>
+<h2 class="text-base font-normal leading-normal text-soft-gray dark:text-slate-300 max-w-md mx-auto">
+                    Unlock new skills, level up your knowledge, and have fun doing it.
+                </h2>
+</div>
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-12 px-8 bg-primary text-white text-base font-bold leading-normal tracking-wide shadow-lg shadow-primary/30 hover:shadow-xl hover:scale-105 transition-all duration-300">
+<span class="truncate">Start Quest</span>
+</button>
+</div>
+</div>
+</div>
+<!-- FeatureSection -->
+<div class="flex flex-col gap-10 px-4 py-16 @container bg-background-light dark:bg-background-dark">
+<div class="flex flex-col gap-4 text-center">
+<h1 class="text-3xl font-bold leading-tight tracking-tight @[480px]:text-4xl max-w-[720px] mx-auto">
+              Embark on Your Learning Journey
+            </h1>
+<p class="text-base font-normal leading-normal text-soft-gray dark:text-slate-300 max-w-[720px] mx-auto">Discover exciting quests and missions designed to make learning fun and engaging.</p>
+</div>
+<div class="grid grid-cols-1 @[480px]:grid-cols-2 @[768px]:grid-cols-3 gap-6 p-0 max-w-5xl mx-auto">
+<div class="flex flex-col gap-4 rounded-lg bg-mint-green/30 dark:bg-mint-green/20 p-6 text-center items-center">
+<div class="flex items-center justify-center w-16 h-16 rounded-full bg-mint-green text-text-light">
+<span class="material-symbols-outlined text-3xl">local_library</span>
+</div>
+<div class="flex flex-col gap-1">
+<h2 class="text-xl font-bold leading-tight">Interactive Quests</h2>
+<p class="text-soft-gray dark:text-slate-300 text-sm font-normal leading-normal">Engage with fun, hands-on challenges.</p>
+</div>
+</div>
+<div class="flex flex-col gap-4 rounded-lg bg-lavender/30 dark:bg-lavender/20 p-6 text-center items-center">
+<div class="flex items-center justify-center w-16 h-16 rounded-full bg-lavender text-text-light">
+<span class="material-symbols-outlined text-3xl">leaderboard</span>
+</div>
+<div class="flex flex-col gap-1">
+<h2 class="text-xl font-bold leading-tight">Track Your Progress</h2>
+<p class="text-soft-gray dark:text-slate-300 text-sm font-normal leading-normal">See how far you've come on your adventure.</p>
+</div>
+</div>
+<div class="flex flex-col gap-4 rounded-lg bg-sky-blue/30 dark:bg-sky-blue/20 p-6 text-center items-center">
+<div class="flex items-center justify-center w-16 h-16 rounded-full bg-sky-blue text-text-light">
+<span class="material-symbols-outlined text-3xl">emoji_events</span>
+</div>
+<div class="flex flex-col gap-1">
+<h2 class="text-xl font-bold leading-tight">Earn Cute Rewards</h2>
+<p class="text-soft-gray dark:text-slate-300 text-sm font-normal leading-normal">Collect badges and prizes for every milestone.</p>
+</div>
+</div>
+</div>
+</div>
+<!-- App UI Showcase Section -->
+<div class="flex flex-col gap-10 px-4 py-16 bg-background-light dark:bg-background-dark overflow-hidden">
+<h2 class="text-3xl font-bold leading-tight tracking-tight px-4 text-center">See the Adventure in Action</h2>
+<div class="relative flex w-full grow @container py-3">
+<div class="w-full grid grid-cols-1 @[768px]:grid-cols-3 gap-8 items-center max-w-6xl mx-auto">
+<div class="relative @[768px]:col-span-1 flex justify-center">
+<div class="w-full max-w-xs bg-white dark:bg-zinc-800 rounded-lg p-3 shadow-2xl shadow-slate-200 dark:shadow-black/50">
+<div class="w-full bg-cover bg-center bg-no-repeat aspect-[9/19] rounded-md" data-alt="Screenshot of the app's dashboard screen, showing progress bars and daily quests." style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBa4ZrRYIdn7qi50N14GjnLU_RZpwKDIX7lhy2hQ4mAGlAVkXEdztRiYw8jhVhkzWP7OY0L8LLPJyaw-H0ooYJvRvtxIN0uryC_aHz4WLhi-gAkm1cH5fguYI8lPjQEAQIRyNOCfYDqVoM2UZ6_xkI7F5NcBCnqmhz4G6s2OxPzAv1TXXgSx0Pmhsx-4DvMCFuIG3UqolRWYzrJPZ1uglTanOfjsjwX8YToVNi3HfcVRiENu6Ldh8tAqq-qCc98gY5CDn8XMxpvjN8");'></div>
+</div>
+<div class="absolute -bottom-8 -right-4 flex items-center gap-2">
+<img class="w-16 h-16" data-alt="App mascot" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCnIXS2u56Ux17pdVWc2BD8NPwieg2ZzbAvDdOPCsgOTiJKa8YoW3iFntRB61SC5RVj6OU8AEQ0qPD03a5i_30mCty3Z129-e5pCrkZe-T_wsSRazLK1it501qOFzoZFsqsRltgarC4P4vQu-1bE9jPhJi8vvfUinLh4PZNUfAoDy7eTilVgxc7hTck2xvbK26r8WR95RDVQsIWliKZov7FyNE6dabZqGUJbu_bg3mHhNyK12SmvRK9bxsKdcUDMrta6HHwYVJqKFY"/>
+<div class="bg-white dark:bg-zinc-700 p-2 px-3 rounded-lg shadow-md text-xs max-w-[120px]">Track your XP here!</div>
+</div>
+</div>
+<div class="relative @[768px]:col-span-1 hidden @[768px]:flex justify-center">
+<div class="w-full max-w-xs bg-white dark:bg-zinc-800 rounded-lg p-3 shadow-2xl shadow-slate-200 dark:shadow-black/50 transform scale-110">
+<div class="w-full bg-cover bg-center bg-no-repeat aspect-[9/19] rounded-md" data-alt="Screenshot of a sample lesson screen within the app, featuring interactive elements." style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCEppQdB3v9pk3vDmT5ftSQlomXTJQtxcDZOYQ8A2GjY9njkY48GWLpcXaOU59pjOyRGbHQIEK0E_ktTS1_h2TgkGqaSN1EiniqMirBuNnokudr0X1NsBeikC1GUvzjBYQMtfv2pMWfvPV6uNF-Y7ybZMiPIfpe3jC1GVdsyHWJ23hdpaHYnbzFb-b97LJzUjLqsWTiqhZGNtSLzGXlo29p4skncDTPbjFEBRSkUQOykXPn9NY4cf724FNAGV_s1ZFWoZcC4T6P1AU");'></div>
+</div>
+</div>
+<div class="relative @[768px]:col-span-1 hidden @[768px]:flex justify-center">
+<div class="w-full max-w-xs bg-white dark:bg-zinc-800 rounded-lg p-3 shadow-2xl shadow-slate-200 dark:shadow-black/50">
+<div class="w-full bg-cover bg-center bg-no-repeat aspect-[9/19] rounded-md" data-alt="Screenshot of the rewards page in the app, displaying collected badges and prizes." style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuA6qQlEwwpunxRAKqXm8wQ6cOgWh4yoDo8jXquPQXhysIvjmpvdUjRMhpyY4XuuMUGAeARj7zzH11Q3PeduycW8vDXpT-VjVaHyUY39MtvjNrJ99pPouuexdPJxTi-aY6k1claHfMbyPwyhEsB8WBs4eh9_h_aeVCx8G2-RMlG1b8CdLkwQw8QWjZsx0feUJ4WsXQreLNfnAcccWG3ExW8_JdLLepEQuaoyEXCOfiamzdmddhlK8-2dDLRv5hYGN6HXiT9AFAsvXh0");'></div>
+</div>
+<div class="absolute -bottom-8 -left-4 flex items-center gap-2">
+<div class="bg-white dark:bg-zinc-700 p-2 px-3 rounded-lg shadow-md text-xs max-w-[150px]">Collect badges for every milestone!</div>
+<img class="w-16 h-16 transform -scale-x-100" data-alt="App mascot" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAI6uWRLBLI5CldHXBLgzER6UnOtP2ea08Qljl6dULUDCigIOuwlT8ZnN3LdUpsL4mBpEeUWcJ3J4BqTrMz-rQ56XP_shcANkPIfPAO-M7j3ma5ziVfe6RuHSzVJe-5O9SAjH5tqkRroQdkS5TxqsQ7PSRHjM7rSKwISueyT_hW6gUKB1VkH9mnchypvlbbQLF1HBrBjo-CpYpK4CmCl0sKkB8CkFiYyTfD-mlkP1g3D02TT9CRdjXYWIH67bvcGjtniQSSgzAE5tg"/>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- CTASection -->
+<div class="relative bg-background-light dark:bg-background-dark overflow-hidden">
+<div class="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/az-subtle.png')] opacity-20"></div>
+<div class="absolute -top-20 -right-20 w-60 h-60 bg-soft-yellow/30 dark:bg-soft-yellow/20 rounded-full blur-3xl"></div>
+<div class="absolute -bottom-20 -left-20 w-60 h-60 bg-mint-green/30 dark:bg-mint-green/20 rounded-full blur-3xl"></div>
+<div class="relative @container">
+<div class="flex flex-col justify-end gap-6 px-4 py-20 @[480px]:gap-8 @[480px]:px-10 @[480px]:py-24 text-center items-center">
+<div class="flex items-center justify-center w-24 h-24 rounded-full bg-soft-yellow/50 dark:bg-soft-yellow/30 text-yellow-500 dark:text-yellow-300">
+<span class="material-symbols-outlined text-6xl">workspace_premium</span>
+</div>
+<div class="flex flex-col gap-2">
+<h1 class="text-3xl font-bold leading-tight tracking-tight @[480px]:text-4xl max-w-[720px]">
+                      Your First Reward Awaits!
+                    </h1>
+<p class="text-base font-normal leading-normal text-soft-gray dark:text-slate-300 max-w-[720px]">Join now and claim your exclusive starter badge.</p>
+</div>
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-12 px-8 bg-primary text-white text-base font-bold leading-normal tracking-wide shadow-lg shadow-primary/30 hover:shadow-xl hover:scale-105 transition-all duration-300">
+<span class="truncate">Claim My Reward</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Footer -->
+<footer class="bg-slate-100 dark:bg-background-dark border-t border-slate-200 dark:border-zinc-800">
+<div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+<div class="sm:flex sm:items-center sm:justify-between">
+<a class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse" href="#">
+<span class="material-symbols-outlined text-primary text-2xl">stars</span>
+<span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">QuestLearn</span>
+</a>
+<div class="flex flex-col items-center sm:items-end gap-4">
+<div class="flex gap-4">
+<a href="#"><img class="h-6 w-6 opacity-70 hover:opacity-100 transition" data-alt="X social media logo" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBTzU9e8TKuPgPz9qj8B4dlkzb_QRrkyav0SRilubDoEKORRtr2AXOb_P2xzD20re9krogtajKAa9vcNVxya-Q2PACfZs7iZd6ror0YES3fhAw_E8ETJXblRqDUmY5xc76iovxwNxiNFnlz6OTcl6-F4wuc_UcBwd4nVqrWlCxZhWHW4PpV4t63f034ZEQ2lOaubKerlCXQ-GtfG34BCfbqRjtEYOfsB71jRhkqPS20hebDk4eWJT8KEa5aYgVz548jxpr_S2P96xI"/></a>
+<a href="#"><img class="h-6 w-6 opacity-70 hover:opacity-100 transition" data-alt="Instagram social media logo" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCfuNJUsndPUJjctWZtrjtBbpYb9yF1ZyNxQ1zfIeSFJsFG8YvWHfZu0OEzPODYPlQavqYOpcqjwOxxigIkZXSVEnVySy3_jM0hVCkomtz_t7e1grVNN6x5GWD9NjGvmwj0f5r7jb03XBgNZ3-fKwpx1Rvaxa9bfHssjcz5JJCVJ1T6qCNf6PcZolq3B41BiiYHYw14l0QtvW_elDFJ6qShNEVZn_Mn-H4U6myl2gUl-XRJOD3uKBEp2_N6xSObwCY4q4hyWtBIQfk"/></a>
+</div>
+<div class="flex gap-4">
+<a href="#"><img class="h-10" data-alt="Download on the App Store badge" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDRZboVa9V30kaG_kc4BnpGBx23Hj9FWX9LBFLS3OlYUY61Zaomm6M3B3Nvi3ZvTyHPJ8tScCTjqa8QnIbh6YfAOwC3hLOIhkw6BNcIcPwoF-GDYDqKtx5zkD8BgB2F_DLQjN09KS5j5IvSa2JwBYFzH_D6-SbSj_XtDclcjUIBKx6lMGbf2TkbmfqX7mqr5GaBWxbbBDKlPFyONoSBKDVZSi4JGE22CdMXJ48ecclCanoFU4NulVW2YA8xFf9TLBk0RfxCYrSClCU"/></a>
+<a href="#"><img class="h-10" data-alt="Get it on Google Play badge" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAxr3s5vYreF7qZ4QuIAtGpckxklYDltZTX7os_zwQTa1rrxuIkDqPBnj3aQdabv5d3RER32i_4I3PCqFhYoZa1KLGT_6nahuGDzmwFUWVt3F_Vjl7LkAbC3eRr9gMenRVENRzcm5Aam3BybtVQc-2MsWOZdK5mJwseU43ISLlCkDoqkBZaKC5EDsm0zGIDEZaktpMYSMYc01PgU_S1QP0MQ-krBj-U2iMCNM7dRqQkd4VWtaNkHbNJYptMzTarwx4eWuYu_gvkitc"/></a>
+</div>
+</div>
+</div>
+<hr class="my-6 border-slate-200 sm:mx-auto dark:border-gray-700 lg:my-8"/>
+<span class="block text-sm text-soft-gray sm:text-center dark:text-gray-400">© 2024 QuestLearn™. All Rights Reserved.</span>
+</div>
+</footer>
+</div>
+</body></html>

@@ -1,0 +1,23 @@
+{
+  "name": "questlearn-homepage",
+  "version": "1.0.0",
+  "description": "QuestLearn - Your Next Big Adventure! Landing Page",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "questlearn",
+    "landing-page",
+    "education"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
